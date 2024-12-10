@@ -1,0 +1,39 @@
+*:not(.material-icons, .dont-base-reset, .swal2-container) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: lighter;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: normal;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Kristi';
+  font-weight: normal;
+  src: url(../fonts/Kristi-Regular.ttf);
+}
+
+body {
+  font-size: 16px;
+}
+
+i.material-icons {
+  vertical-align: middle;
+}

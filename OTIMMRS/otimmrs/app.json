@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "otimmrs",
+    "slug": "otimmrs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vashtamyty.otimmrs"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vashtamyty.otimmrs",
+      "permissions": ["INTERNET"],
+      "networkSecurityConfig": {
+        "cleartextTrafficPermitted": true
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-splash-screen"
+    ],
+    "fonts": [
+      {
+        "asset": "./assets/fonts/Kristi-Regular.ttf",
+        "family": "Kristi"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-Bold.ttf",
+        "family": "Poppins"
+      }
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "94eea6f2-6445-4dc3-8fe3-8b7535c21704"
+      }
+    }
+  }
+}
